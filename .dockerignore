@@ -1,0 +1,28 @@
+# Ignore the target directory where compiled classes and JAR files are stored
+target/
+.devcontainer/
+
+# Ignore local Maven repository
+.m2/
+
+# Ignore IDE-specific files (e.g., IntelliJ, Eclipse)
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore version control directories
+.git/
+.gitignore
+
+# Ignore any other unnecessary files or directories
+Dockerfile
+README.md
